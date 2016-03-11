@@ -25,7 +25,6 @@ class Example extends FunSuite with BeforeAndAfter with ScalaFutures {
     def geom = column[Point]("geom")
 
     def * = (id, name, geom)
-
   }
 
 
